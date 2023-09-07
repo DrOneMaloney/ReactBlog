@@ -1,40 +1,32 @@
 .nav-header {
     display: flex;
-    justify-content: center;  /* Centers the items horizontally */
-    align-items: center;  /* Centers the items vertically */
-    border-bottom: 1px solid #e3e7e7;
-    height: 80px;
-}  
+    justify-content: center; /* Centers children horizontally */
+    align-items: center; /* Centers children vertically */
+    background-color: #f8f9fa;
+    border-bottom: 1px solid #363537;
+    height: 150px;
+}
 
 .nav-list {
     display: flex;
     list-style: none;
-    margin: 0;
-    justify-content: center;  /* Centers the items horizontally */
-}
-
-.nav-links {
-    display: flex;
-    list-style: none;
-    margin: 0;
-    padding: 50px;
-    justify-content: center;  /* Centers the items horizontally */
+    align-items: center; /* Centers children vertically */
+    justify-content: center; /* Centers children horizontally */
 }
 
 .nav-buttons {
-    border-radius: 25px;
-    text-decoration: none;
-    display: flex;
-    list-style: none;
-    margin: 0;
-    padding-left: 25px;
-    padding-right: 25px;
-    justify-content: center;
+    display: inline-block;
+    padding: 10px 20px;
+    text-align: center;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f9fa;
+    color: #363537;
+    text-decoration: none; /* Remove underline */
+    cursor: pointer; /* Make it look clickable */
+    margin: 25px;
 }
 
 .material-icons {
-    font-size: 30px;
-    color: #363537;
+    vertical-align: middle; /* Center the icon vertically */
 }
-
-
