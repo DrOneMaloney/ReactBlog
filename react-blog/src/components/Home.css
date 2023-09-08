@@ -1,0 +1,30 @@
+.home-heading {
+    padding-top: 25px;
+    justify-content: center;
+    text-align: center;
+}
+
+.introduction {
+    text-align: center;
+    justify-content: center;    display:flexbox;
+}
+
+.intro {
+    text-align: center;
+    justify-content: center;
+}
+
+.social-media-container {
+    text-align: center;
+    justify-content: center;
+}
+
+.social-media {
+    padding-top: 15px;
+    text-align: center;
+}
+
+.social-heads {
+    padding-top: 15px;
+    text-align: center;
+}
